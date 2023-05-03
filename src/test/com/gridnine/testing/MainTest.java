@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MainTest {
-
     @Test
     // тест на исключение перелета, если время вылета уже прошло
     public void shouldReturnEmptyWhenDepartureDateBeforeNowFilter(){

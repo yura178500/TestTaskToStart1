@@ -9,6 +9,7 @@ import java.util.Objects;
  */
 
 public class Segment {
+
     private final LocalDateTime departureDate;
     private final LocalDateTime arrivalDate;
     public Segment(final LocalDateTime dep, final LocalDateTime arr) {
